@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, 'Segoe UI';
+    background-color: lightgreen;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+#learn {
+    position: absolute;
+    top: 10px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#submitBtn {
+    border-radius: 10px;
+    border: solid 1px;
+    width: 100px;
+    height: 30px;
+}
+
+#submitBtn:hover {
+    background-color: pink;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
